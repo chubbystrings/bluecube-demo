@@ -6,7 +6,7 @@ export const AvatarWrapper = styled.div`
   align-items: center;
   position: absolute;
   display: none;
-  top: 5px;
+  top: 15px;
   left: 25px;
 
   @media screen and (max-width: 320px) {
@@ -16,7 +16,7 @@ export const AvatarWrapper = styled.div`
   & .notification-wrapper {
       position: absolute;
       right: 1px;
-      top: -20px;
+      top: -5px;
   }
 
   & .avatar {
